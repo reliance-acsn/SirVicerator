@@ -51,18 +51,18 @@ Figure 5 Execution with host file, test conducted against multiple servers.
 <h3>Detection</h3>
 
 The tool identifies the overprivileged services via the service binary name in the path this is then matched to a friendly name to be displayed onscreen as above.  The following applications have been specified for reporting.
-•	Database Servers
-  o	MSSQL
-  o	Oracle
-  o	MySQL
-  o	Postgres
-  o	MongoDb
-  o	FirebirdDb
-•	Web Servers
-  o Apache
-  o	Apache Tomcat
-  o	Glassfish
-  o	JBoss 
+* Database Servers
+  * MSSQL
+  * Oracle
+  * MySQL
+  * Postgres
+  * MongoDb
+  * FirebirdDb
+* Web Servers
+  * Apache
+  * Apache Tomcat
+  * Glassfish
+  * JBoss 
 
 <h3>Outputs</h3>
 The tool outputs a number of files from a run cycle; the raw data csv files which have had windows services removed. A results file which contains the filtered results produced by the program.  An error log containing detailed error warnings from the application which are obscured at runtime.

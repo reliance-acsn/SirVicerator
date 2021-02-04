@@ -1,6 +1,10 @@
 # SirVicerator
 A Windows Service Over-Privilege Enumerator
 
+Penetration Testers have been raising issues regarding service over privilege for a long time but for system admins the task of finding and fixing these vulnerabilities is complex and convoluted.  In a penetration test a consultant may compromise a single instance of a vulnerable service and use the resulting privileges of that service to achieve further onward compromise, this is usually performed in isolation and system admins may be left with a mammoth task upon receiving the report as they will have one example of this over privilege but no way of determining further instances of this within their environment.
+This is where the inspiration for this project came from.  All penetration testers hate doing manual and repetitive tasks and as such seek automation to assist in their evidence collection.  For me personally I didn’t like manual collection of services such as Tomcat, SQL Server etc. which had over privilege and thus ‘Sir Vicerator’ was born.
+
+
 <h2>User Guide - Execution</h2>
 
 The tool only requires the execution policy within PowerShell to be unrestricted to allow it to run.  Additionally, for best results the tool should be run under the context of domain administrator and run on Windows 10, Windows Server 2012 or greater.  Open PowerShell as an administrator by selecting the ‘Run as Administrator’ Option from the right click menu.
